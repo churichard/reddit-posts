@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The manifest file is used for defining permissions, activities, and other application-level settings. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hackny2015.redditposts" >
+
+    <!-- This app uses the Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- All activities have to be defined in the Android Manifest file. -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+
+            <!-- This defines the MainActivity to be the activity that is launched when the app starts -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.PostActivity"
+            android:label="@string/title_activity_post"
+            android:parentActivityName=".activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hackny2015.redditposts.activity.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

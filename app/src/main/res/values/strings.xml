@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reddit Posts</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_post">Reddit Post</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>
