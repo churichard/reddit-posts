@@ -1,11 +1,5 @@
 # Reddit Posts
-An Android Development workshop example app
+This repo has a Reddit Posts app that I created for an Android workshop. The app displays the top Reddit posts in a given subreddit.
 
-# Code snippets
-1. Parse reddit json: http://pastebin.com/NBRMS8B3
-2. Dependencies: http://pastebin.com/v8JZrakv
-3. Load website inside webview: http://pastebin.com/bKdEiDdN
-
-# Resources
-1. http://www.reddit.com/r/pics.json
-2. http://wiki.solid-run.com/images/7/75/No_image_available.png
+# Presentation
+https://docs.google.com/presentation/d/1s5fg3E3WtxufuvxGseOn7Xc_lpDLB6Mq8iqATtPkwi8/edit?usp=sharing
