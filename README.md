@@ -5,8 +5,9 @@ This repo has a Reddit Posts app that I created for an Android workshop. The app
 https://docs.google.com/presentation/d/1s5fg3E3WtxufuvxGseOn7Xc_lpDLB6Mq8iqATtPkwi8/edit?usp=sharing
 
 # Screenshots
-Main Screen
+
+### Main Screen
 ![Screen 1](/screenshots/screen1.png)
 
-Reddit Post Screen
+### Reddit Post Screen
 ![Screen 2](/screenshots/screen2.png)
